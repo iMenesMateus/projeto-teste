@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #a09038;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    font-style: italic;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url(./pexels-pok-rie-303024.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    padding: 5px;
+}
+
+.conteiner {
+    text-align: center;
+}
+
+.conteiner .name h1 {
+    font-size: 60px;
+}
+
+.conteiner .name h5 {
+    font-size: 20px;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+}
+
+.form button {
+    width: 15%;
+}
+
